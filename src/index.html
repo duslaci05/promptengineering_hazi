@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Impacts and Human Health</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Relationship Between Environmental Impacts and Human Health</h1>
+        </header>
+        <main>
+            <section id="input-section">
+                <p>Enter a specific environmental factor (e.g., air pollution, plastic waste, deforestation) to understand its impact on human health.</p>
+                <label for="environmental-factor">Environmental Factor:</label>
+                <input type="text" id="environmental-factor" name="environmental-factor" placeholder="e.g., air pollution">
+                <button id="get-summary-btn">Get Health Impact Summary</button>
+            </section>
+            <section id="output-section">
+                <h2>Health Impact Summary</h2>
+                <div id="summary-result" aria-live="polite">
+                    <p>The summary will appear here once you enter a factor and click the button.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Powered by Generative AI</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
